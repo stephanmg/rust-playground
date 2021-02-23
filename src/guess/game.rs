@@ -4,7 +4,7 @@ use std::io;
 const MIN: u32 = 1;
 const MAX: u32 = 1000;
 
-pub fn guess() {
+pub fn play() {
     println!("Guess a number!");
     let secret = rand::thread_rng().gen_range(MIN, MAX);
 
